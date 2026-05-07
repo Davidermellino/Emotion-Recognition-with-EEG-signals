@@ -1,0 +1,24 @@
+name: eeg-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # scientific stack
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13.1
+  - h5py=3.11.0
+
+  # EEG / ML
+  - mne=1.7.1
+
+  # Jupyter kernel
+  - ipykernel=6.29.4
+
+  # TensorFlow via pip (più stabile così)
+  - pip:
+      - tensorflow==2.15.0

@@ -1,0 +1,17 @@
+# Raw EEG data (huge, ~7 GB) and intermediate processed files
+data/raw/*.cnt
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Conda env / venv
+.env/
+venv/
+.venv/
+
+# Editor
+.vscode/
+.idea/
