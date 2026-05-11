@@ -1,6 +1,9 @@
 # Raw EEG data (huge, ~7 GB) and intermediate processed files
 data/raw/*.cnt
 data/processed/
+data/splitted/
+
+models/
 
 # Python
 __pycache__/
